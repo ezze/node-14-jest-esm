@@ -1,0 +1,23 @@
+{
+  "name": "node-14-jest-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules\" jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezze/node-14-jest-esm.git"
+  },
+  "author": "Dmitriy Pushkov <ezze@ezze.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezze/node-14-jest-esm/issues"
+  },
+  "homepage": "https://github.com/ezze/node-14-jest-esm#readme",
+  "devDependencies": {
+    "jest": "^26.6.2"
+  }
+}
