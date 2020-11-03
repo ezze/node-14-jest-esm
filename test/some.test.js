@@ -1,9 +1,10 @@
 import { jest } from '@jest/globals';
-jest.mock('../lib/some');
 import { superFn } from "../lib/some";
+
+jest.mock('../lib/some');
 
 describe('some', () => {
   it('superFn', () => {
-    // superFn({ mock: true });
+    console.log(superFn({ mock: true }));
   });
 });
